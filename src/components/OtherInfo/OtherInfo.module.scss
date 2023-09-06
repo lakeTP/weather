@@ -1,0 +1,39 @@
+.OtherInfo {
+	display: flex;
+	margin-top: 10px;
+	color: black;
+	padding: 30px;
+	height: 260px;
+	max-width: 990px;
+	width: 100%;
+	box-shadow: 2px 5px 25px 3px rgba(180, 180, 180, 0.25);
+	position: relative;
+	border-radius: 5px;
+	background: url("../../../src/assets/img/logo/obl.png") 0 0/750px 500px
+		no-repeat;
+}
+
+.info {
+	position: relative;
+	display: flex;
+	align-items: center;
+	margin-bottom: 30px;
+	&:last-of-type {
+		margin-bottom: 0;
+	}
+	.indicator,
+	.name {
+		margin-right: 15px;
+	}
+	.indicator {
+		width: 40px;
+		height: 40px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+}
+.name,
+.value {
+	font-size: 16px;
+}

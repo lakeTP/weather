@@ -1,0 +1,39 @@
+.header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    border-radius: 5px;
+    box-shadow: 2px 5px 25px 3px rgba(180, 180, 180, 0.25);
+    background-color: white;
+}
+
+.wrap{
+    display: flex;
+    margin: 5px;
+   
+}
+
+
+.logo{
+    width: 40px;
+    height: 50px;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+ margin-top: 14px;
+
+}
+
+.decorlogo{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-top: 4px;
+    cursor: pointer;
+}
